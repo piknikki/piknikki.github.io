@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<script type="text/javascript">
+		var i = 10;  // initializer
+		var output = document.querySelector('.output');
+		var para = document.querySelector('p');
+
+
+
+		while (i >0) {
+			var para = document.createElement('p');
+			if (i === 10) {
+				para.textContent = 'Countdown' + i;
+			} else if (i === 0) {
+				para.textContent = 'Blast Off!';
+			} else {
+				para.textcontent = i;
+			}
+
+			output.appendChild(para); // creates a new paragraph of output
+		};
+
+		
+
+	</script>
+
+</body>
+</html>
+
