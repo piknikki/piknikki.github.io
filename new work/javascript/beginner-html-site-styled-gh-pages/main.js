@@ -1,6 +1,6 @@
 
 var myHeading = document.querySelector('h1'); // find h1, store in variable
-myHeading.textContent = 'Hello world!' ; // tell it what to say in h1
+// myHeading.textContent = 'Hello world!' ; // tell it what to say in h1
 
 var myImage = document.querySelector('img');  // find img store in variable
 

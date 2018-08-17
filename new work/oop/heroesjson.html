@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Our superheroes</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+
+      <header>
+
+      </header>
+
+      <section>
+
+      </section>
+
+    <script>
+    var header = document.querySelector('header');
+    var section = document.querySelector('section');
+
+    // store url of request
+    var requestURL = 'https://mdn.github.io/learning-area/javascript/oojs/json/superheroes.json';
+
+    // create the request using 'new' keyword
+    var request = new XMLHttpRequest();
+
+    // open the new request using open() method
+    // second param is the stored url
+    request.open('GET', requestURL);
+
+    // set the response type to json so it knows to convert to javascript object
+    request.responseType = 'json';
+    request.send();
+
+    // witing for the response to return from server and telling it what to do
+    request.onload = function() { // load when successfully returned
+      var superHeroes = request.response; // store response in variable as javascript object
+      populateHeader(superHeroes); // fill header with data
+      showHeroes(superHeroes);  // fill section with data
+    }
+
+    function populateHeader(jsonObj) {
+      var myH1 = document.createElement('h1');
+      myH1.textContent = jsonObj['squadName'];
+      header.appendChild(myH1);
+
+      var myPara = document.createElement('p');
+      myPara.textContent = 'Hometown: ' + jsonObj['homeTown'] + ' // Formed: ' + jsonObj['formed'];
+      header.appendChild(myPara);
+    }
+
+    function showHeroes(jsonObj) {
+      var heroes = jsonObj['members'];
+
+      // loop to create a profile for each hero
+      for (var i = 0; i < heroes.length; i++) {
+        // define all variables, get info from document
+        var myArticle = document.createElement('article');
+        var myH2 = document.createElement('h2');
+        var myPara1 = document.createElement('p');
+        var myPara2 = document.createElement('p');
+        var myPara3 = document.createElement('p');
+        var myList = document.createElement('ul');
+
+        // tell it what goes in as content
+        myH2.textContent = heroes[i].name;
+        myPara1.textContent = 'Secret identity: ' + heroes[i].secretIdentity;
+        myPara2.textContent = 'Age: ' + heroes[i].age;
+        myPara3.textContent = 'Superpowers: ';
+
+        var superPowers = heroes[i].powers;
+
+        // loop to create list of powers for each hero
+        for (var j = 0; j < superPowers.length; j++) {
+          var listItem = document.createElement('li');
+          listItem.textContent = superPowers[j];
+          myList.appendChild(listItem);
+        }
+
+        // plug content into each profile
+        myArticle.appendChild(myH2);
+        myArticle.appendChild(myPara1);
+        myArticle.appendChild(myPara2);
+        myArticle.appendChild(myPara3);
+        myArticle.appendChild(myList);
+
+        // pull all info together and put it inside the section
+        section.appendChild(myArticle);
+
+      }
+    }
+
+
+    
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
