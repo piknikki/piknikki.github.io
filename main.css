@@ -1,4 +1,6 @@
 
+
+
 p {
   font-family: Raleway;
   font-weight: 400;
@@ -24,25 +26,34 @@ img {
 	height: 300px;
 }
 
+html {
+	background-image: url('pattern.jpeg');
+	background-size: 200px;
+
+}
+
 body {
   font-family: Raleway;
-  background-color: #c4eafb;
-  padding-left: 75px;
-  padding-right: 75px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px 120px;
+
 }
 
 
 
 .header {
-  background-color: #c4eafb;
+  background-color: #fff;
   text-align: center;
-  font-family: Raleway
+  font-family: Raleway;
+  
 }
 
 .header h1:hover  {
 	text-shadow: 0 0 7px grey;
+}
+
+.container {
+	background-color: #fff;
+	padding: 50px;
 }
 
 .about-me {
