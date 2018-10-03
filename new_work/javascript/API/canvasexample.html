@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Canvas work</title>
+
+	<style type="text/css">
+		body = {
+			margin: 0;
+			overflow: hidden;
+		}
+	</style>
+</head>
+
+<body>
+
+	<canvas class="myCanvas">
+		<p>Your browser doesn't support canvas.  Booo!</p>
+	</canvas>
+
+	<script>
+		var canvas = document.querySelector('.myCanvas');
+		var width = canvas.width = window.innerWidth;
+		var height = canvas.height = window.innerHeight;
+		var ctx = canvas.getContext('2d');
+
+		// make a bunch of shapes
+		ctx.fillStyle = 'rgb(0,0,0';  // fill color
+		ctx.fillRect(0,0, width, height);  // rectangle that covers entire canvas
+
+		ctx.fillStyle = 'rgb(255,0,0)';  // fill with red
+		ctx.fillRect(50,50,100,150);  // put rectangle 50px from top and left
+									// 100px wide and 150px tall
+									// top left width height 
+
+		// add a square
+		ctx.fillStyle = 'rgb(0, 255, 0)';
+		ctx.fillRect(75,75,100,100);
+
+		ctx.fillStyle = 'rgba(255, 0, 255, 0.75)';
+		ctx.fillRect(25,100,175,50);
+
+		// make some lines
+		ctx.strokeStyle = 'rgb(255, 255, 255)';
+		ctx.strokeRect(25,25,175,200);
+		ctx.lineWidth = 10;
+
+		ctx.fillStyle = 'rgb(255, 0, 0)'; // shape 
+		ctx.beginPath();  // start drawing
+		ctx.moveTo(50,50);  // move 
+
+		ctx.fill();  // complete the drawing 
+
+		function degToRad(degrees) {
+			return degrees * Math.PI / 180;
+		};
+
+
+		// draw a triangle
+		ctx.fillStyle = 'rgb(255, 148, 0)';
+		ctx.beginPath();
+		ctx.moveTo(250,150);
+
+		ctx.lineTo(350,150);
+		var triHeight = 50 * Math.tan(degToRad(60));
+		ctx.lineTo(300, 150+triHeight);
+		ctx.lineTo(250,150);
+		ctx.fill();
+
+		// draw a circle
+		ctx.fillStyle = 'rgb(255, 197, 188)';
+		ctx.beginPath();
+		ctx.arc(400, 400, 50, degToRad(0), degToRad(360), false);
+		ctx.fill();
+
+		ctx.fillStyle = 'yellow';
+		ctx.beginPath();
+		ctx.arc(500, 206, 50, degToRad(-45), degToRad(45), true);
+		ctx.lineTo(500, 206);
+		ctx.fill();
+	</script>
+
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
