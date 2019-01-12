@@ -1,88 +1,144 @@
 <!-- main page -->
-
-
 <!DOCTYPE html>
-
-
 <html>
-
 <head>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <title>Nikki Petersen</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130194883-1"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-130194883-1');
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-130194883-1');
     </script>
 
-  <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
-  <title>Nikki Petersen's work</title>
-  <link href="main.css" type="text/css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <!-- Linking CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Linking jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- Linking Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
+    
+
 </head>
 
 <body>
-  <div class="container">
-      <div class="header">
-        <img src="../IMG_4543.jpg">
+<div class="container">
+    <div class="jumbotron bg-primary text-center">
         <h1>Nikki Petersen</h1>
-        <p class="about-me">I am a Certified Scrum Master, learning software development (front and back end web development) and other fun stuff. In my free time, I like to walk with my dog and/or kids, make stuff, and drink coffee.<br>
-          <br>
-          I am lucky to have three brilliantly funny (and pretty socially awkward) kids, two gorgeous cats, and one dog with the absolutely <i>worst</i> breath in the world (but we love him anyway).  <br>
+    </div>
 
-          <br>
-          The pages here are sort of like a lab for experimentation with code.  I'm slowly learning how to implement the languages that I'm learning (see list below), and as such, the projects may not appear quickly or perfectly.  It's a process.  I'm a process.  
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-info">
+                <div class="panel-heading">About me</div>
+                <div class="panel-body">
+                    <p>
+                     I am a Certified Scrum Master, learning software development (front and back end web development) and other fun stuff. In
+                    my free time, I like to walk with my dog and/or kids, make stuff, and drink coffee.
+                    <br>
+                     I am lucky to have three brilliantly funny (and pretty socially awkward) kids, two gorgeous cats, and one dog with the absolutely
+                    <i>worst</i> breath in the world (but we love him anyway).
+                    <br>
+                     The pages here are sort of like a lab for experimentation with code. I'm slowly learning how to implement the languages
+                    that I'm learning (see list below), and as such, the projects may not appear quickly or perfectly. It's a process. I'm a
+                    process.
+                    </p>
+                </div>
+            </div>
 
-        </p>
-      </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="well text-center">
+                <div>
+                    <img class="../IMG_4543.jpg">
+                </div>
+            </div>
 
-      <h2>Projects</h2>
-      <p class="title"> Web Development projects</p>
-      <ul>
-        <li><a href="../resume/index.html">My resume</a></li>
-        <li><a href="../htmlproject/index.html">HTML Sandbox</a> </li>
-        <li><a href="../cssproject/index.html">CSS Sandbox</a></li>
-        <li><a href="../new_work/javascript/beginner-html-site-styled-gh-pages/index.html">This one is fun -- change the user name and find the easter egg.  </a></li>
-        <li><a href="../new_work/javascript/functions/functions4.html">And also this one -- changing colors on the screen</a></li>
-        <li><a href="../new_work/javascript/API/ajax/brucelee.html">Pick a Bruce Lee quote</a></li>
-        <li><a href="../piggame/index.html">A dice rolling game</a> (Roll your die. If you roll a 1, your turn is forfeited. Hold to keep your rolls. Winner is the first to 50)</li>
+        </div>
+        <div class="col-sm-6">
+            <div class="panel panel-warning">
+                <a href="../resume/index.html">My resume</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="panel panel-success">
+                <div class="panel-heading">Some of my projects</div>
+                <div class="panel-body">
+                    <ul>
+                        <li><a href="../htmlproject/index.html">HTML Sandbox</a> </li>
+                        <br>
+                        <li><a href="../cssproject/index.html">CSS Sandbox</a></li>
+                        <br>
+                        <li><a href="../new_work/javascript/beginner-html-site-styled-gh-pages/index.html">This one is fun -- change
+                                the user name and find the easter egg. </a></li>
+                        <br>
+                        <li><a href="../new_work/javascript/functions/functions4.html">And also this one -- changing colors on the
+                                screen</a></li>
+                        <br>
+                        <li><a href="../new_work/javascript/API/ajax/brucelee.html">Pick a Bruce Lee quote</a></li>
+                        <br>
+                        <li><a href="../piggame/index.html">A dice rolling game</a> (Roll your die. If you roll a 1, your turn is
+                            forfeited. Hold to keep your rolls. Winner is the first to 50)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-6">
+
+            <button class="btn btn-danger form-control" id="quoteButton">Bruce Lee Quote Picker</button>
+            <div class="well text-center">
+                <div>
+                    <p id="quoteText">Click the button for a random quote from Bruce Lee, Kung Foo Master and philosopher.</p>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">Some of my favorite jargon (I'm a word nerd)</div>
+                <div class="panel-body">
+                    <ul>
+                        <li>super floofy beans</li>
+                        <li>unicorn</li>
+                        <li>automagical</li>
+                        <li>thingamajig</li>
+                    </ul>
+                </div>
+            </div>
+           
+        </div>
+
         
-        <li><a href="../fourohfour/index.html">jQuery projects</a></li>
-      </ul>
+        
+    </div>
 
-      <p class="title">Some of my favorite jargon</p>
-      <ul>
-        <li>super floofy beans</li>
-        <li>unicorn</li>
-        <li>automagical</li>
-        <li>thingamajig</li>
-      </ul>
+    <div class="row">
+        <div class="col-sm-12 text-center">
+            <div class="panel panel-warning">
+                <div class="panel-heading">Contact</div>
+                    <div class="panel-body">
+                        <p>Find me on email (nikki.petersen.csm at gmail dot com) and GitHub (piknikki). </p>
+                        
+                        <h6>&copy; Copyright. All Rights Reserved.</h6>
+                    </div>
 
-      <h2>Hey, what the heck is a Scrum Master, anyway??</h2>
-      <p>I'm so glad you asked!  Scrum is like a mix of executive coaching, project management, and administrative assistant.  A Scrum Master is a leader, but in a supportive way -- the scrum doesn't lead by delegating, she leads by giving support to the team, and removing any obstacles.  She knows when to listen (80%) and when to speak up (20%), and is a rabid protector of her team.  Letting the team self-organize and find their path of least resistance is the only way to give them the autonomy they need so they can achieve the greatest success in the goals of the organization.  This hands-off approach is like free-range parenting, but for leadership.  You’re letting the team figure out what works best <em>for them</em>.  <a href="https://www.scrumalliance.org/learn-about-scrum?gclid=CjwKCAjw7cDaBRBtEiwAsxprXSNH6g4iRnRH_tKtakxg6Mo-nwiJM5zqSsxVA7nPpLGCJJXas9_WVxoCpxwQAvD_BwE">Scrum</a> is just one framwork for practicing <a href="https://agilemanifesto.org">Agile Methodology</a>.<hr></p>
-        <br>
-
-      <p>Scrum is typically used for software development teams, but can be used in any context (which is one of the things I love most about it), including education, the military, and businesses that aren't doing software.  It has a solid foundation in emotional intelligence, because you need to be able to feel the feels, communicate in an effective way, and keep a positive and growth-oriented mindset.  Empathy is essential.  The Scrum Master empowers their team with autonomy and trust, which is what we all want!  Turns out, when you give people that freedom, they can change the world.  I love scrum because, IMHO, it's the best way to help a development team.  And now that I'm studying software development, that's going to be increasingly important to my work!
-      <hr>
-      <br>
-      Please ask, if you'd like more info on being a Scrum Master. I seriously <em>love</em> to talk about it (read: I'm a nerd for Scrum). </p> 
-
+                </div>
+            
+        </div>
+    </div>
+<img class="seal" src="../sealcsm.png">
 
 
-      <h2>Contact</h2>
-      <p>Find me on email (nikki.petersen.csm at gmail dot com) and GitHub (piknikki).  </p>
-
-      <img class="seal" src="../sealcsm.png">
-      <h6>&copy; Copyright. All Rights Reserved.</h6>
-
-      </div>
-
-
-
-  
 </div>
+<script type="text/javascript" src="logic.js"></script>
 </body>
-
 </html>
 
