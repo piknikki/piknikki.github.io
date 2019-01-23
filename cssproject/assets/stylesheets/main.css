@@ -129,7 +129,7 @@ body {
 
 .row,
 .row-alt {
-    width: 960px;
+    width: 100%;
 }
 
 .row {
