@@ -1,94 +1,103 @@
-<!-- CSS PROJECT -->
-
+<!-- Shay Howe work -->
 
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700" rel="stylesheet">
-	<title>This is the html <strong>file of the css project</strong></title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- this is the css project, not to be confused with the html project -->
-
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Styles Conference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/stylesheets/main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+    <script src="main.js"></script>
 </head>
 <body>
-	<h1>The nitty gritty</h1>
-	<p>This page is also an experimental space, to work on learning the basic features and elements of <abbr title="Hypertext Markup Language">HTML</abbr> and <abbr title="Cacasing Style Sheets"> CSS </abbr> (but not all).   <h6>(here's an easter egg:  if you hover over the acronyms, you'll see what they stand for!  Wheeee!)</h6></p>
+    <!-- Header -->
+    <header class="primary-header container group">
+        <h1 class="logo">
+            <a href="index.html">Styles <br> Conference</a>
 
+        </h1>
 
-	<h2>What this is</h2>
-	<p>This is a paragraph of nonsense.  This is a paragraph of nonsense.  Yes, I still use two spaces between sentences.  I'm not a savage, <em>like some people</em>.  This is a paragraph of nonsense.  This is a paragraph of nonsense.  This is a paragraph of nonsense.  See?  Told you.  Nonsense.</p>
+        <h3 class="tagline">August 24&ndash;26th &mdash; Chicago,IL </h3>
+        
+        <nav class="nav primary-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li><!--
+                --><li><a href="speakers.html">Speakers</a></li><!--
+                --><li><a href="schedule.html">Schedule</a></li><!--
+                --><li><a href="venue.html">Venue</a></li><!--
+                --><li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
 
-	<h2>Why I'm doing this:</h2>
-		<ul>
-			<li>To learn</li>
-			<li>To be an awesome programmer</li>
-			<li>To Support my:
-				<ol>
-					<li>cats </li>
-					<li>kids</li>
-					<li>yarn habit</li>
-				</ol>
-			</li>
+    </header>
+    <section class="row-alt">
+        <div class="hero container">
+            <h2>Dedicated to the Craft of Building Websites</h2>
 
+            <p>Every year the brightest web designers and front-end developers descend on Chicago to discuss the latest technologies. Join us this August!</p>
 
-		</ul>
+            <a class="btn btn-alt" href="register.html">Register now!</a>
+        </div>
+    </section>
+    
+        <!-- teasers  -->
+        <section class="row">
+            <div class="grid">
 
+                <!-- Speakers -->
 
-	<h2>Random link to a tutorial, using an image as a clickable link (click the honey badger):</h2>
-		<p><a href="http://www.htmldog.com"><img src="../piper-thibodeau-dp1677-s.jpg" width="120" height="90" alt="honey badger"></a></p>
+                <section class="teaser col-1-3">
+                    <h5>Speakers</h5>
+                    <a href="speakers.html"></a>
+                        <img src="assets/images/home/speakers.jpg" alt="Professional Speaker">
+                        
+                        <h3>World-Class Speakers</h3>
+                    </a>
+                    <p>Joining us from all around the world are over twenty fantastic speakers, here to share their stories.</p>
+                </section><!--
+                
+                    Schedule
+                    
+                --><section class="teaser col-1-3">
+                    <h5>Schedule</h5>
+                    <a href="schedule.html">
+                        <img src="assets/images/home/schedule.jpg" alt="Calendar">
 
+                        <h3>Three Inspiring Days</h3>
+                    </a>
+                    <p>Enjoy three inspiring and action-packed days of talks, gatherings, and all-around good times.</p>
+                </section><!--
+                
+                    Schedule
+                
+                    --><section class="teaser col-1-3">
+                        <h5>Venue</h5>
+                    <a href="venue.html">
+                        <img src="assets/images/home/venue.jpg" alt="Picture of venue">
+                        <h3>The Chicago Theatre</h3>
+                    </a>
+                    <p>Within the heart of downtown Chicago, The Chicago Theatre will provide a beautiful conference venue.</p>
+                </section>
+            </div>
+        </section>
 
-<h3>Obligatory random table (probably the most boring table you've ever seen)</h3>
-<table>
-	<tr>
-		<td>row 1, space 1</td>
-		<td>row 1, space 2</td>
-		<td>row 1, space 3</td>
-	</tr>
+    <!-- footer  -->
+    <footer class="primary-footer container group">
 
-	<tr>
-		<td>row 2, space 1</td>
-		<td>row 2, space 2</td>
-		<td>row 2, space 3</td>
-	</tr>
+        <small>&copy; Styles Conference</small>
 
-	<tr>
-		<td>row 3, space 1</td>
-		<td>row 3, space 2</td>
-		<td>row 3, space 3</td>
-	</tr>
-
-</table>
-
-<h3>Here is a random form</h3>
-<p><strong>Looks good, but won't actually do anything</strong></p>
-
-<form action="somescript.php" method="post">
-	<p>Name</p>
-	<p><input type="text" name="name" value="Your Name"></p>
-	<p>Comments:</p>
-	<p><textarea rows="10" cols="20" name="comments">Your comments</textarea></p>
-
-	<p>Are you:</p>
-	<p><input type="radio" name="areyou" value="funny">Funny</p>
-	<p><input type="radio" name="areyou" value="interesting">Interesting</p>
-	<p><input type="radio" name="areyou" value="curious">Curious</p>
-	<p><input type="radio" name="areyou" value="nocomment">No Comment</p>
-</form>
-
-
-
-
-
-
-<footer></footer>
-<p>This is the footer at the end of my css project.  Next up:  <a href="../gridresume/index.html"> another super fun CSS project!</a><br>
-		Or you could always <a href="http://www.purplepants.io/">Go home</a></p>
-</footer>
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Home</a></li><!--
+                --><li><a href="speakers.html">Speakers</a></li><!--
+                --><li><a href="schedule.html">Schedule</a></li><!--
+                --><li><a href="venue.html">Venue</a></li><!--
+                --><li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </footer>
 
 </body>
 </html>
-
-
-
-
