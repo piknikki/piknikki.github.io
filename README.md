@@ -4,6 +4,6 @@
 
 The best way to see my work displayed is to go to my website (ported from this GitHub):
 
-www.purpleplants.io
+http://www.purpleplants.io
 
 
