@@ -28,3 +28,7 @@ body, html {
 .panel panel-primary {
     text-align: left;
 }
+
+li {
+    margin-bottom: 15px;
+}
