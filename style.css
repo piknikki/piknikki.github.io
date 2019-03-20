@@ -1,17 +1,17 @@
+body, html {
+    margin: 40px;
+    background-image: url('pattern.jpeg');
+    background-size: 200px;
+    font-family: Raleway;
+    font-size: 16px;
+}
+
 .jumbotron, .panel-heading {
     background-color: #d1c6f8;
 }
 
 .jumbotron h1 {
     color: white;
-}
-
-body, html {
-    margin: 40px;
-    background-image: url('pattern.jpeg');
-    background-size: 200px;
-    font-family: Raleway;
-    
 }
 
 .seal {
@@ -31,4 +31,8 @@ body, html {
 
 li {
     margin-bottom: 15px;
+}
+
+.footer-link {
+    line-height: 2.5;
 }
