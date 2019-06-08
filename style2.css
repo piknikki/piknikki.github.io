@@ -40,9 +40,14 @@ p {
 
 #np {
     font-family: 'Patrick Hand', cursive;
-    color: white;
+    color: #E22866;
     font-size: 3em;
     margin-left: 20px;
+}
+
+#nikki,
+#here {
+    color: #E22866;
 }
 
 .nav-link {
@@ -60,7 +65,7 @@ p {
     border-right: 1px dotted white;
     margin-left: 0;
     margin-right: 5px;
-    color: #ffffff;
+    color: #E22866;
 }
 
 a.np, .btn-link {
