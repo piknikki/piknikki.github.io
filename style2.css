@@ -23,19 +23,16 @@ body {
     padding: 0;
 }
 
-html {
-    background: #153B56;
-    position: relative;
-    min-height: 100%;
-}
-
-header {
-    margin: 20px;
-}
-
 p {
     color: #d2d2d6;
     padding: 10px 100px;
+}
+
+.big-heading {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5em;
+    margin-left: 40px;
+    color: #d2d2d6;
 }
 
 #np {
@@ -88,8 +85,8 @@ a.np, .btn-link {
     vertical-align: baseline;
 }
 
-.card-link {
-    text-decoration: none;
+.btn-link {
+    text-decoration:none !important;
 }
 
 #dbl-curve, #sgl-curve {
@@ -137,5 +134,3 @@ footer {
     padding-bottom: 10px;
     letter-spacing: 1px;
 }
-
-
