@@ -110,7 +110,7 @@ a.np, .btn-link {
 }
 
 .card-body {
-    padding: 0 50px 50px;
+    padding: 20px;
 }
 
 .work-image {
@@ -120,12 +120,21 @@ a.np, .btn-link {
     padding: 20px;
 }
 
-.footer-wrap {
-    width: 100%;
-    position: fixed;
-    bottom: 0;
-    background: #20313B;
+#norway {
+    height: 245px;
+    width: 320px;
 }
+
+.left {
+    float: left;
+    padding: 0 20px 20px 0;
+}
+
+#about-section {
+    text-align: left;
+    padding: 20px;
+}
+
 
 footer {
     width: 80%;
