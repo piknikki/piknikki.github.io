@@ -38,15 +38,25 @@
     <link rel="stylesheet" type="text/css" href="style2.css">
 
 </head>
-
 <body>
+
 <!--Title section contains navbar and a title-->
 <section id="title">
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg">
 
             <!--  navbar brand -->
-            <a class="navbar-brand" href="#"><h1 id="np" data-toggle="tooltip" data-placement="right" title="NP === Nikki Petersen === No Problem">{np}</h1></a>
+            <a
+                    class="navbar-brand"
+                    href="#">
+                <h1
+                    id="np"
+                    data-toggle="tooltip"
+                    data-placement="right"
+                    title="NP === Nikki Petersen === No Problem">
+                {np}  Nikki Petersen
+                </h1>
+            </a>
 
 
             <button
@@ -65,6 +75,18 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
+                        <a
+                                class="nav-link"
+                                id="aboutme"
+                                data-toggle="collapse"
+                                data-target="#collapseTwo"
+                                aria-expanded="false"
+                                aria-controls="collapseTwo">
+                            About me
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="https://www.linkedin.com/in/nikkipetersencsm/">LinkedIn</a>
                     </li>
                     <li class="nav-item">
@@ -78,14 +100,6 @@
 
             </div>
         </nav>
-
-        <!--          Title   -->
-        <div class="row">
-            <div class="col-lg-6">
-                <h1 class="big-heading">Nikki Petersen</h1>
-            </div>
-
-        </div>
 
     </div>
 </section>
@@ -153,11 +167,114 @@
 
                 </div>
             </div>
-            <img id="sgl-curve" src="./images/curve-singleRightLight.png" alt="curve single right">
+<!--            <img class="sgl-curve" src="./images/curve-singleRightLight.png" alt="curve single right">-->
         </div>
 
     </div>
 
+
+
+
+    <div class="accordion" id="accordionSectionSkills">
+        <div class="card">
+            <div class="card-header" id="headingOneSkills">
+                <p>And my skills
+                    <button
+                            class="btn btn-link collapsed"
+                            type="button"
+                            id="hereSkills"
+                            data-toggle="collapse"
+                            data-target="#collapseOneSkills"
+                            aria-expanded="false"
+                            aria-controls="collapseOneSkills">
+                        {here}.</button>
+                </p>
+            </div>
+
+            <div id="collapseOneSkills" class="collapse" aria-labelledby="headingOneSkills" data-parent="#accordionSectionSkills">
+                <div class="card-body">
+                    <div class="card-body skills-card">
+                        <table id="skills-table">
+                            <tr>
+                                <td><h3>HTML</h3></td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td><h3>CSS</h3></td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+
+                                <td><h3>Bootstrap Framework</h3></td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td><h3>JavaScript</h3></td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td><h3>jQuery</h3></td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td><h3>Node.js</h3></td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td><h3>Express</h3></td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td><h3>Command Line Interface</h3></td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td><h3>MongoDB/Mongoose</h3></td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td><h3>MySQL/Sequelize</h3></td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+
+                            <tr>
+                                <td><h3>React</h3></td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td> <h3>Handlebars/EJS</h3></td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td><h3>BEM</h3></td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td><h3>Scrum & Agile</h3></td>
+                                <td>⭐⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td> <h3>MVC Pattern</h3></td>
+                                <td>⭐⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td><h3>Python</h3></td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                            <tr>
+                                <td> <h3>Object Oriented Programming</h3></td>
+                                <td>⭐⭐⭐</td>
+                            </tr>
+                        </table>
+
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </div>
+        <img class="sgl-curve" src="./images/curve-singleRightLight.png" alt="curve single right">
 </section>
 
 
@@ -189,12 +306,25 @@
                 time continually learning. Right now, I'm adding testing methods and practices to my skillset.
                 Personal free time is spent outdoors with my kids, learning and creating and generally engaging in
                 shenanigans.
-            </p>
+                <br><br>
+
+                On a more personal note:  the last year or so has been a huge growth spurt for me, in terms of self-awareness.
+                After being married to a man for 10-ish years, divorcing him, and then his death, I was finally able to come
+                out and be myself for the first time since childhood. It seems like a lot of women have recently been coming out after
+                being married and having children, and I have to say that my experience has been comparatively smooth. I'm lucky to have great
+                friends who support me no matter what (conditional love ftw), and I've never had to deal with the chaos of
+                coming out to my horrible ex and his horrible family. So many women coming out late in life have very
+                different outcomes. For me, it's been humbling to be so loved and cared for by my friends and family. Love is love.
+                I often like to represent my journey with a "backward" rainbow of hearts because I've come out in a sort of
+                reverse order, having lived one life for so long and finally being able to be my full self.</p>
+                <br>
+
+                <h2 id="hearts"> 💜 💙 💚 💛 🧡 ♥️ </h2>
+
         </div>
     </div>
 
 </footer>
-
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

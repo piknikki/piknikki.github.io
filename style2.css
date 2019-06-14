@@ -37,16 +37,24 @@ p {
 
 #np {
     font-family: 'Patrick Hand', cursive;
-    color: #E22866;
-    font-size: 3em;
-    margin-left: 20px;
+    color: #d2d2d6;
+    font-size: 2.5em;
 }
+
+#nikkipetersen {
+    font-family: 'Patrick Hand', cursive;
+    /*margin-left: 10%;*/
+    /*margin-right: 10%;*/
+}
+
 
 #nikki,
-#here {
+#here,
+#hereSkills {
     color: #E22866;
 }
 
+#aboutme,
 .nav-link {
     color: #d2d2d6;
     font-family: 'Patrick Hand', cursive;
@@ -57,6 +65,7 @@ p {
     margin-right: 6px;
 }
 
+#aboutme:hover,
 .nav-link:hover {
     border-left: 1px dotted white;
     border-right: 1px dotted white;
@@ -89,7 +98,11 @@ a.np, .btn-link {
     text-decoration:none !important;
 }
 
-#dbl-curve, #sgl-curve {
+.navbar {
+    padding: 3%;
+}
+
+#dbl-curve, .sgl-curve {
     width: 100%;
     border: none;
 }
@@ -104,7 +117,6 @@ a.np, .btn-link {
 .card-header {
     background: #153B56;
     border: none;
-    padding: 40px 0;
     margin: 0;
     text-align: center;
 }
@@ -118,6 +130,10 @@ a.np, .btn-link {
     height: 170px;
     margin: 20px;
     padding: 20px;
+}
+
+.work-section {
+    background: #153B56;
 }
 
 #norway {
@@ -142,4 +158,18 @@ footer {
     text-align: center;
     padding-bottom: 10px;
     letter-spacing: 1px;
+}
+
+
+td {
+    padding: 0 20px;
+    text-align: left;
+}
+
+.skills-card {
+    margin: 0 20%;
+}
+
+#hearts {
+    text-align: center;
 }
