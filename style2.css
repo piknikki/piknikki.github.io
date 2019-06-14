@@ -161,9 +161,11 @@ footer {
 }
 
 
+
 td {
     padding: 0 20px;
     text-align: left;
+    font-size: 20px;
 }
 
 .skills-card {
