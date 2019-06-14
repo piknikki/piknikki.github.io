@@ -41,7 +41,6 @@
 <body>
 
 
-
 <!--Title section contains navbar and a title-->
 <div id="title">
     <div class="container-fluid">
@@ -52,11 +51,11 @@
                     class="navbar-brand"
                     href="#">
                 <h1
-                    id="np"
-                    data-toggle="tooltip"
-                    data-placement="right"
-                    title="NP === Nikki Petersen === No Problem">
-                {np}  Nikki Petersen
+                        id="np"
+                        data-toggle="tooltip"
+                        data-placement="right"
+                        title="NP === Nikki Petersen === No Problem">
+                    {np}  Nikki Petersen
                 </h1>
             </a>
 
@@ -108,182 +107,282 @@
 </div>
 
 
+<div class="container-fluid">
+    <!--  cover has image at the bottom of it  -->
 
-<!--  cover has image at the bottom of it  -->
-
-<section id="top-section">
-    <div class="row">
-        <div class="feature-box col-lg-10 col-md-12">
-            <p>I am passionate about keeping things intelligently simple. </p>
+    <section id="top-section">
+        <div class="row">
+            <div class="feature-box col-lg-10 col-md-12">
+                <p>I am passionate about keeping things intelligently simple. </p>
+            </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="feature-box col-lg-10 col-md-12">
-            <p>I am a Full Stack Web Developer, using a MERN stack, among other languages.</p>
+        <div class="row">
+            <div class="feature-box col-lg-10 col-md-12">
+                <p>I am a Full Stack Web Developer, using a MERN stack, among other languages.</p>
+            </div>
         </div>
-    </div>
 
-    <div class="row">
-        <img id="dbl-curve" src="./images/curve-doubleLeft.png" alt="curve double left">
-    </div>
+        <div class="row">
+            <img id="dbl-curve" src="./images/curve-doubleLeft.png" alt="curve double left">
+        </div>
 
-</section>
+    </section>
 
-<!--  under the wave image, expand to show work  -->
-<section class="work-section">
-    <div class="accordion" id="accordionSection">
-        <div class="card">
-            <div class="card-header" id="headingOne">
-                <p>See some of my work
-                    <button
-                            class="btn btn-link collapsed"
-                            type="button"
-                            id="here"
-                            data-toggle="collapse"
-                            data-target="#collapseOne"
-                            aria-expanded="false"
-                            aria-controls="collapseOne">
-                        {here}.</button>
-                </p>
+
+
+    <!--  under the wave image, expand to show work  -->
+    <section class="work-section">
+        <div class="accordion" id="accordionSection">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <p>See some of my work
+                        <button
+                                class="btn btn-link collapsed"
+                                type="button"
+                                id="here"
+                                data-toggle="collapse"
+                                data-target="#collapseOne"
+                                aria-expanded="false"
+                                aria-controls="collapseOne">
+                            {here}.</button>
+                    </p>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionSection">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a class="card-link" href="https://thawing-caverns-69795.herokuapp.com/" >
+                                    <img class="work-image" src='./images/clickgame.png' alt="click game" />
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a class="card-link" href="https://whispering-spire-37868.herokuapp.com/" >
+                                    <img class="work-image" src='./images/burgers.png' alt="burger app" />
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a class="card-link" href="https://evening-headland-21699.herokuapp.com" >
+                                    <img class="work-image" src='./images/sociallyawkward.png' alt="socially awkward gorilla" />
+                                </a>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a class="card-link" href="http://www.nikkipetersen.dev/Project1/" >
+                                    <img class="work-image" src='./images/eventsearch.png' alt="event search" />
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a class="card-link" href="https://www.nikkipetersen.dev/unit-4-game/" >
+                                    <img class="work-image" src='./images/crystal.png' alt="crystal game" />
+                                </a>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-sm-12">
+                                <a  class="card-link" href="http://www.nikkipetersen.dev/TrainSchedule/" >
+                                    <img class="work-image" src='./images/trains.png' alt="train scheduler" />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--            <img class="sgl-curve" src="./images/curve-singleRightLight.png" alt="curve single right">-->
             </div>
 
-            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionSection">
-                <div class="card-body">
-                    <a class="card-link" href="https://thawing-caverns-69795.herokuapp.com/" >
-                        <img class="work-image" src='./images/clickgame.png' alt="click game" />
-                    </a>
-                    <a class="card-link" href="https://whispering-spire-37868.herokuapp.com/" >
-                        <img class="work-image" src='./images/burgers.png' alt="burger app" />
-                    </a>
-                    <a class="card-link" href="https://evening-headland-21699.herokuapp.com" >
-                        <img class="work-image" src='./images/sociallyawkward.png' alt="socially awkward gorilla" />
-                    </a>
-                    <a class="card-link" href="http://www.nikkipetersen.dev/Project1/" >
-                        <img class="work-image" src='./images/eventsearch.png' alt="event search" />
-                    </a>
-                    <a class="card-link" href="https://www.nikkipetersen.dev/unit-4-game/" >
-                        <img class="work-image" src='./images/crystal.png' alt="crystal game" />
-                    </a>
-                    <a  class="card-link" href="http://www.nikkipetersen.dev/TrainSchedule/" >
-                        <img class="work-image" src='./images/trains.png' alt="train scheduler" />
-                    </a>
+        </div>
+
+
+        <div class="accordion" id="accordionSectionSkills">
+            <div class="card">
+                <div class="card-header" id="headingOneSkills">
+                    <p>And my skills
+                        <button
+                                class="btn btn-link collapsed"
+                                type="button"
+                                id="hereSkills"
+                                data-toggle="collapse"
+                                data-target="#collapseOneSkills"
+                                aria-expanded="false"
+                                aria-controls="collapseOneSkills">
+                            {here}.</button>
+                    </p>
+                </div>
+
+                <div id="collapseOneSkills" class="collapse" aria-labelledby="headingOneSkills" data-parent="#accordionSectionSkills">
+                    <div class="card">
+                        <div class="card-body skills-card">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>HTML</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐⭐
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>CSS</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>Bootstrap</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>JavaScript</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>jQuery</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>Node.js</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>Express</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>Command Line Interface</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>MongoDB/Mongoose</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>MySQL/Sequelize</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>React</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>Handlebars/EJS</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>BEM</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>Progressive Web Apps</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>Scrum/Agile</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>MVC Pattern</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>Python</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h4>Object Oriented Programming</h4>
+                                </div>
+                                <div class="col-lg-4">
+                                    ⭐⭐⭐
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
 
                 </div>
             </div>
-<!--            <img class="sgl-curve" src="./images/curve-singleRightLight.png" alt="curve single right">-->
-        </div>
-
-    </div>
-
-
-
-
-    <div class="accordion" id="accordionSectionSkills">
-        <div class="card">
-            <div class="card-header" id="headingOneSkills">
-                <p>And my skills
-                    <button
-                            class="btn btn-link collapsed"
-                            type="button"
-                            id="hereSkills"
-                            data-toggle="collapse"
-                            data-target="#collapseOneSkills"
-                            aria-expanded="false"
-                            aria-controls="collapseOneSkills">
-                        {here}.</button>
-                </p>
-            </div>
-
-            <div id="collapseOneSkills" class="collapse" aria-labelledby="headingOneSkills" data-parent="#accordionSectionSkills">
-                <div class="card">
-                    <div class="card-body skills-card">
-                        <table id="skills-table">
-                            <tr>
-                                <td><h4>HTML</h4></td>
-                                <td>⭐⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td><h4>CSS</h4></td>
-                                <td>⭐⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-
-                                <td><h4>Bootstrap Framework</h4></td>
-                                <td>⭐⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td><h4>JavaScript</h4></td>
-                                <td>⭐⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td><h4>jQuery</h4></td>
-                                <td>⭐⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td><h4>Node.js</h4></td>
-                                <td>⭐⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td><h4>Express</h4></td>
-                                <td>⭐⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td><h4>Command Line Interface</h4></td>
-                                <td>⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td><h4>MongoDB/Mongoose</h4></td>
-                                <td>⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td><h4>MySQL/Sequelize</h4></td>
-                                <td>⭐⭐⭐⭐</td>
-                            </tr>
-
-                            <tr>
-                                <td><h4>React</h4></td>
-                                <td>⭐⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td> <h4>Handlebars/EJS</h4></td>
-                                <td>⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td> <h4>Progressive Web Apps</h4></td>
-                                <td>⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td><h4>BEM</h4></td>
-                                <td>⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td><h4>Scrum & Agile</h4></td>
-                                <td>⭐⭐⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td> <h4>MVC Pattern</h4></td>
-                                <td>⭐⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td><h4>Python</h4></td>
-                                <td>⭐⭐⭐</td>
-                            </tr>
-                            <tr>
-                                <td> <h4>Object Oriented Programming</h4></td>
-                                <td>⭐⭐⭐</td>
-                            </tr>
-                        </table>
-
-                </div>
-            </div>
 
         </div>
-        </div>
-
-    </div>
         <img class="sgl-curve" src="./images/curve-singleRightLight.png" alt="curve single right">
-</section>
-
+    </section>
+</div>
 
 <!--  Footer  -->
 
@@ -324,17 +423,17 @@
                 different outcomes. For me, it's been humbling to be so loved and cared for by my friends and family. Love is love.
                 I often like to represent my journey with a "backward" rainbow of hearts because I've come out in a sort of
                 reverse order, having lived one life for so long and finally being able to be my full self.</p>
-                <br>
+            <br>
 
-                <h2 id="hearts"> 💜 💙 💚 💛 🧡 ♥️ </h2>
+            <h2 id="hearts"> 💜 💙 💚 💛 🧡 ♥️ </h2>
 
         </div>
     </div>
 
 </footer>
 
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
