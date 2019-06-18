@@ -139,9 +139,22 @@ a.np, .btn-link {
     padding: 20px;
 }
 
-.work-section {
+.blog__section {
     background: #153B56;
+    padding: 5% 10%;
+    color: #d2d2d6;
+}
 
+.blog__section h2 {
+    color: white;
+}
+
+.blog__section p {
+    margin-bottom: 0;
+}
+
+.skills__list {
+    margin-left: 5%;
 }
 
 .container-fluid {
@@ -179,30 +192,7 @@ td {
     font-size: 20px;
 }
 
-.skills-card {
-    margin: 0 20%;
-}
-
 #hearts {
     text-align: center;
 }
-
-.blog__section {
-    background: #153B56;
-    padding: 5% 10%;
-    color: #d2d2d6;
-}
-
-.blog__section h2 {
-    color: white;
-}
-
-.blog__section p {
-    margin-bottom: 0;
-}
-
-.skills__list {
-    margin-left: 5%;
-}
-
 
