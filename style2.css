@@ -201,4 +201,11 @@ td {
     text-align: center;
 }
 
+hr {
+    border: dotted #d2d2d6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
 
