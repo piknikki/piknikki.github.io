@@ -41,7 +41,7 @@
             <!--  navbar brand -->
             <a
                     class="navbar-brand"
-                    href="#">
+                    href="https://www.nikkipetersen.dev">
                 <h1
                         id="np"
                         data-toggle="tooltip"
@@ -140,7 +140,46 @@
 <!--                <hr>-->
 <!--                <br>-->
 
+                <h1 class="rainbow">GitHub pdf for collaborating (read and download)  </h1>
+                <h4>A somewhat helpful guide??</h4>
+                <h5><em>Date: June 28, 2019</em></h5>
 
+                <p><em>Click on the image below to go to my GitHub and then click on "download" in the upper right.</em></p>
+                <br>
+                <p>
+                    <a href="https://github.com/piknikki/piknikki.github.io/blob/master/GitFlow.pdf"><img id="gitflow" src="images/gitflow.png" alt="gitflow download"></a>
+                </p>
+
+                <p>In preparation for teaching a new tutoring student about how to collaborate with GitHub, I created a
+                    pdf of a flow chart for working with others and how GitHub works. This is the description that goes with that
+                    instructional and super helpful pdf.
+                </p>
+                <p>Ok, on the first page, I have "my repo" in purple-ish blue. It shows how, using the git commands, I can
+                do my own git version control in my repo. I can create a repo on GitHub and go from there, or I can create one locally,
+                then add the remote and push up to my GitHub.</p>
+
+                <p>On the second page, you can see your repo, which is, you guessed it, the same thing! You can do your own
+                    version control with git in your own repo. Yay!
+                </p>
+                
+                <p>The last page shows how we would collaborate together, assuming that I create (and thus own) the original
+                    repo. You could either clone or fork my repo:  cloning copies the repo to your local machine, whereas
+                    forking copies the repo to your GitHub. With the former scenario, your local copy is intrinsically your
+                    working directory and your local repo; you would make changes and then you could create a pull request
+                    (after add, commit, and push). With the latter scenario, your copy is on GitHub, so you'll need to
+                    clone it to your local machine in order to work on it. Then, as with cloning, you can add, commit, push,
+                    and then make a pull request. This all assumes that the final product will be on my repo (my GitHub).
+                </p>
+
+                <p>Let's say that you wanted to keep it to yourself. For example, I've worked on projects with a group, and after
+                    we're done and deployed, and they wanted to make changes and deploy to their own Heroku or other platform. Cool.
+                    Then you would just fork my repo and go from there on your own GitHub without creating a pull request. Easy peasy!
+
+                </p>
+
+                <br>
+                <hr>
+                <br>
 
 
                 <h1 class="rainbow">Tutoring as a part-time gig -- yay!</h1>
@@ -194,7 +233,9 @@
                 </p>
                 <p><em><strong>Black box testing</strong></em>:  this type of testing is performed when the tester does not
                     know the "inner workings" of the feature. Examples of black box testing include: equivalence testing
-                    (representatives from each partition are selected), boundary testing (edge cases, and cases on either side
+                    (representatives from each partition are selected; an additional note is that the tester will want to
+                    confirm both positive and negative test cases (i.e. valid and invalid cases), boundary testing
+                    (edge cases, and cases on either side
                     of the partitions), decision tables (created using the test conditions to build a matrix of possible outcomes),
                     state transition (when the feature changes state, like login/logout), and use cases (specific scenarios).
                 </p>
@@ -203,7 +244,16 @@
                     and statement testing.
                 </p>
 
-                <br>
+                <p><em><strong>Smoke & Sanity checks</strong></em>:  Smoke testing tests the basic and most important functionality
+                    of a feature or site, and can be a major cost saver because it gets the MVP features tested right away.
+                    Sanity checks are just what it sounds like: does this make sense??
+                </p>
+
+                <p><em><strong>Regression testing</strong></em>:  aka verification testing. This is used to confirm that
+                    bug fixes that have been made haven't broken other parts of the code or feature.
+                </p>
+
+                    <br>
                 <hr>
                 <br>
 

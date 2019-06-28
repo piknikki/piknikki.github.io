@@ -216,3 +216,9 @@ h1, .rainbow {
     -webkit-text-fill-color: transparent;
 }
 
+#gitflow {
+    width: 300px;
+    height: auto;
+    border: 1px solid #5073B8;
+}
+
