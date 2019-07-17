@@ -140,28 +140,98 @@
 <!--                <hr>-->
 <!--                <br>-->
 
+                <h1 class="rainbow">A new app deployed!  </h1>
+                <h4>Nikki: 1, Heroku: 0 </h4>
+                <h5><em>Date: July 17, 2019</em></h5>
+
+                <p>
+                    I shouldn't say that I won over Heroku, because when I can get my shit deployed, we all win (even Heroku).
+                    But holy crap can it be a struggle to get things to work when deploying!
+                </p>
+
+                <p>
+                    So I guess this post should be about problem solving and grit. I have a lot of feelings about grit, and
+                    I wrote about them on a post on <a href="https://www.linkedin.com/pulse/how-grit-like-boss-nikki-petersen-csm/">
+                    LinkedIn,</a> so let's focus on problem solving here.
+                </p>
+
+                <p>
+                    I was using a tutorial to learn some Redux to go with my React knowledge, and I had completed the entire
+                    course. It took me about 2 weeks, from start to finish. I learned a lot, solidified knowledge that I
+                    learned a while back, and got some new tips/tricks from the developer teaching the course. It was
+                    muy bueno. But then . . . Heroku. 🤪 🤪 🤪
+                </p>
+
+                <p>
+                    The first problem was that I was unfamiliar with a post-production script build instead of a local build and
+                    then pushing the build. So that was fun, to learn how easy it is to do that -- just add a script in
+                    the package.json, make sure your secrets are tightly kept in a config and .gitignore situation, and then
+                    push it!  Wheee!  (that's really not all; there are other changes that need to be made, but I'm too
+                    tired to put them all down; like making sure your process.env.NODE_ENV is set to 'production'; etc. etc.)
+                </p>
+
+                <p>
+                    I pushed to my master and to Heroku's master, the build was confirmed, and Heroku says . . . no. 🙅
+                </p>
+
+                <p>
+                    Why, Heroku? Why you do me this way??  🥺
+                </p>
+
+                <p>
+                    When this happens, you need to look, listen, and ask questions. Look at the Heroku logs or any other
+                    errors you may be getting. Listen to what google and stack overflow are saying. If you look at the
+                    errors but don't know how to solve them, ask experts!  Use google and stack overflow because it is
+                    pretty much guaranteed that someone else has had the *exact* same problem before -- or at least something
+                    close enough that you can adapt a solution to your problem.
+                </p>
+
+                <p>
+                    So my last step in this problem solving process was to be patient with Heroku. It takes a while to
+                    finish its biz when you've made changes. Give it time to do the magic. And when I say time, I mean more
+                    than 60 seconds, which is like, f o r e v e r when you're trying to diagnose a problem with deploying!
+                    I know. I feel your pain. But try to be patient. I had made some fixes, and tried reloading but it
+                    wasn't working. 5 minutes later, I tried a refresh and there was my app. Magic.
+                </p>
+
+                <p>
+                    The problem with that is that I don't know which solution ended up fixing the problem. Was it adding
+                    node and npm versions to the package.json file? Or was it adding the variables to Heroku's config?
+                    The answer is, probably all the things are the solution. But I wasn't patient enough to let them
+                    percolate through Heroku.  😝 🤯 😩 😤 🤬 🙏 🙌 💆
+                </p>
+
+                <br>
+                <hr>
+                <br>
+
                 <h1 class="rainbow">Oooff: out of office for fun. </h1>
                 <h4>4th of July </h4>
                 <h5><em>Date: July 12, 2019</em></h5>
 
-                <p>I took a few days off and spent the holiday with my brother and his fiance. It was really nice.
-                The kids had a great time and I relaxed a bit. Then, this week, I had a quick phone call for a job
-                screening (first step in a job interview for a developer position). It went very (very) well, and I
-                received the next steps:  do a cognitive test, a personality test, a take-home coding challenge, and a
-                behavioral assessment. That all went swimmingly, and now I'm waiting to hear about an interview next
-                week!  Eek!  </p>
+                <p>
+                    I took a few days off and spent the holiday with my brother and his fiance. It was really nice.
+                    The kids had a great time and I relaxed a bit. Then, this week, I had a quick phone call for a job
+                    screening (first step in a job interview for a developer position). It went very (very) well, and I
+                    received the next steps:  do a cognitive test, a personality test, a take-home coding challenge, and a
+                    behavioral assessment. That all went swimmingly, and now I'm waiting to hear about an interview next
+                    week!  Eek!
+                </p>
 
-                <p>So that's all fun and exciting. I was challenged by the code challenge, and not in a way that I like.
+                <p>
+                    So that's all fun and exciting. I was challenged by the code challenge, and not in a way that I like.
                     I like being challenged, but when I figure out the solution and it's suuuuuuper easy, I just kick
                     myself! I hate that. All part of the process, I guess.
                 </p>
 
-                <p>Otherwise, I've been working on a project that has front and back end, login and registration (so
+                <p>
+                    Otherwise, I've been working on a project that has front and back end, login and registration (so
                     lots of authentication goodness), and using Redux. I've not learned that as of yet, so it's also
                     challenging me right now. All the challenges.
                 </p>
 
-                <p>And in the middle of all that, I did an install (yarn) so that I could work with the take-home challenge,
+                <p>
+                    And in the middle of all that, I did an install (yarn) so that I could work with the take-home challenge,
                     and it BORKED my node.js!!!  GRRRRRR!! I finally got it worked out by uninstalling node and doing some
                     other diagnostic shenanigans, and then reinstalling it. Had to update Homebrew, unlink that stupid bin file
                     that was not unlinking itself when I uninstalled, and other such nonsense. Finally got node back up
@@ -169,11 +239,13 @@
                     back up.  Seems good so far.
                 </p>
 
-                <p>I guess the moral of this story is that stuff happens and you have to roll with it. Yes, this tangent
-                has sidetracked me by about 2 hours, and yes, I thought the world was ending roughly around 1.5 hours ago.
-                Did it end?? Nope. Am I wiser for having struggled through that challenge? Not really. It was dumb. Dependencies.
-                Boo. But am I feeling better about my skills and abilities to deal when the shit hits the fan at maximum
-                borkdrive? Yes. I. Am.  🦄</p>
+                <p>
+                    I guess the moral of this story is that stuff happens and you have to roll with it. Yes, this tangent
+                    has sidetracked me by about 2 hours, and yes, I thought the world was ending roughly around 1.5 hours ago.
+                    Did it end?? Nope. Am I wiser for having struggled through that challenge? Not really. It was dumb. Dependencies.
+                    Boo. But am I feeling better about my skills and abilities to deal when the shit hits the fan at maximum
+                    borkdrive? Yes. I. Am.  🦄
+                </p>
 
                 <br>
                 <hr>
