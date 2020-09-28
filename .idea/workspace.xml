@@ -1,7 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2c63428a-ee23-44bb-91b8-4755502c3aee" name="Default Changelist" comment="" />
+    <list default="true" id="2c63428a-ee23-44bb-91b8-4755502c3aee" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/app.83de4b9c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/chunk-ceea2ad6.4a040333.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/chunk-vendors.71c9f8df.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/badgesscreen.da3c32ec.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bakeryscreen.609baa39.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/burgers.522dc461.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/clickgame.b3153ef4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/crystal.2cd28de5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dxt2.14b834f8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/logo.0e68eb9d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/nikkiinnorwaysmaller.a2e814b8.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/petscreen.f8f5de0e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/sociallyawkward.6d49f00d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/yourprojecthere.f6a20e29.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.f2a0f1a3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/app.f2a0f1a3.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/chunk-ceea2ad6.800c0c9b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/chunk-ceea2ad6.800c0c9b.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/chunk-vendors.966c2bb1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/chunk-vendors.966c2bb1.js.map" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +59,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -25,6 +69,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -35,11 +80,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601219409436</updated>
-      <workItem from="1601219410818" duration="618000" />
+      <workItem from="1601219410818" duration="3474000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
